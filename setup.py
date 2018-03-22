@@ -38,7 +38,7 @@ setup(
     author=AUTHOR,
     # author_email=EMAIL,
     url=URL,
-    py_modules=['mtp'],
+    packages=['mtp'],
     entry_points={
         'console_scripts': ['mtp=mtp.cli:main'],
     },
